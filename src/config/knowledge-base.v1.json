@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0-WHO2024-PMK2026",
+  "lastUpdated": "2026-10-25",
+  "sources": [
+    {
+      "id": "WHO-2024A",
+      "title": "WHO Consolidated Guidelines on Differentiated HIV Testing Services (2024)",
+      "summary": "Skrining Mandiri HIV (HIVST) direkomendasikan sebagai pendekatan tambahan yang aman, akurat, dan rahasia untuk meningkatkan keterjangkauan tes HIV pada populasi remaja. HIVST merupakan tes untuk triase (triage/skrining awal) dan tidak memberikan diagnosis HIV definitif. Setiap hasil reaktif wajib dikonfirmasi melalui pengujian lanjutan oleh tenaga kesehatan terlatih menggunakan algoritma nasional (tes konfirmasi serial 3 reagen). Hasil nonreaktif dianggap negatif jika tidak ada pajanan risiko dalam masa jendela (window period)."
+    },
+    {
+      "id": "KEPMENKES-90-2019",
+      "title": "Kepmenkes RI No. HK.01.07/MENKES/90/2019 tentang Pedoman Nasional Pelayanan Kedokteran Tata Laksana HIV",
+      "summary": "Diagnosis HIV di fasilitas pelayanan kesehatan ditegakkan melalui pemeriksaan serologis dengan strategi tiga pemeriksaan berurutan (serial 3 reagen: A1, A2, A3). Pemeriksaan skrining mandiri harus diikuti rujukan aktif (active linkage) ke layanan konseling dan tes HIV konfirmasi serta inisiasi terapi antiretroviral (ARV) sedini mungkin bila terkonfirmasi positif."
+    },
+    {
+      "id": "PERMENKES-3-2026",
+      "title": "Permenkes RI No. 3 Tahun 2026 tentang Penanggulangan HIV, AIDS, dan Infeksi Menular Seksual",
+      "summary": "Menjamin akses layanan pencegahan, skrining, dan pengobatan HIV yang bebas stigma, rahasia, dan ramah remaja melalui Pelayanan Kesehatan Peduli Remaja (PKPR). Setiap peserta berhak atas kerahasiaan rekam medis serta pendampingan konselor terlatih tanpa diskriminasi."
+    },
+    {
+      "id": "ORAQUICK-PQDX-0159-055-00",
+      "title": "OraQuick® HIV Self-Test (WHO PQDx 0159-055-00) Spesifikasi Teknis",
+      "summary": "Kit skrining mandiri berbasis cairan mukosa gusi (oral fluid). Spesifikasi: Suhu penyimpanan 2°C hingga 30°C; Jangan makan, minum, atau menggunakan produk perawatan mulut minimal 15–30 menit sebelum tes; Usap gusi atas satu kali dan gusi bawah satu kali dengan bantalan pipih; Masukkan alat ke tabung cairan penyangga (developer vial); Baca hasil tepat pada menit ke-20 hingga menit ke-40 (jangan dibaca setelah 40 menit). Interpretasi garis: 1 garis pada C (dan tidak ada garis T) = Nonreaktif; 2 garis pada C dan T (meskipun garis T samar) = Reaktif (wajib tes konfirmasi fasyankes); Tidak ada garis pada C = Invalid (ulangi dengan kit baru). Masa jendela (window period) antibodi dapat mencapai hingga 12 minggu pasca-pajanan risiko."
+    }
+  ],
+  "faqKnowledge": [
+    {
+      "id": "FAQ-01",
+      "keywords": ["apa itu hiv", "hiv adalah", "bedanya hiv dan aids", "pengertian hiv", "aids itu apa"],
+      "topic": "Dasar HIV & AIDS",
+      "answer": "HIV (Human Immunodeficiency Virus) adalah virus yang menyerang sistem kekebalan tubuh manusia, khususnya sel CD4 yang bertugas melawan infeksi. Sedangkan AIDS (Acquired Immunodeficiency Syndrome) adalah kumpulan gejala yang muncul ketika sistem kekebalan tubuh sudah sangat menurun akibat infeksi HIV yang tidak diobati selama bertahun-tahun. Dengan terapi ARV (Antiretroviral) yang rutin, orang dengan HIV dapat hidup sehat, produktif, dan mencegah perkembangan menjadi AIDS."
+    },
+    {
+      "id": "FAQ-02",
+      "keywords": ["menular lewat", "cara penularan", "ciuman", "nyamuk", "pelukan", "alat makan", "keringat", "air liur", "bersalaman", "toilet"],
+      "topic": "Penularan vs Mitos HIV",
+      "answer": "HIV HANYA menular melalui cairan tubuh tertentu dari orang yang memiliki HIV (darah, cairan sperma/pre-ejakulasi, cairan vagina, cairan rektal, dan ASI) yang masuk ke aliran darah atau selaput lendir, misalnya melalui hubungan seksual tanpa kondom atau berbagi jarum suntik tidak steril. HIV TIDAK menular melalui air liur, keringat, air mata, berpelukan, berjabat tangan, berbagi alat makan/minum, dudukan toilet, atau gigitan nyamuk."
+    },
+    {
+      "id": "FAQ-03",
+      "keywords": ["kenapa gusi", "cairan mulut", "air liur tidak menular tapi", "oraquick", "cara kerja oraquick", "antibodi"],
+      "topic": "Mengapa OraQuick Mengusap Gusi?",
+      "answer": "Pertanyaan yang sangat bagus! Meskipun virus HIV tidak menular lewat air liur, kit OraQuick® HIV Self-Test bukan mencari virusnya secara langsung, melainkan mendeteksi ANTIBODI HIV-1/HIV-2 yang terdapat pada cairan transudat mukosa gusi (oral fluid). Itulah sebabnya bantalan alat diusapkan lembut pada garis gusi atas dan gusi bawah, bukan dikunyah atau sekadar terkena ludah."
+    },
+    {
+      "id": "FAQ-04",
+      "keywords": ["window period", "masa jendela", "12 minggu", "3 bulan", "kapan tes", "tes ulang"],
+      "topic": "Masa Jendela (Window Period) 12 Minggu",
+      "answer": "Masa jendela (window period) adalah rentang waktu sejak seseorang terpapar HIV hingga tubuh membentuk cukup antibodi yang bisa dideteksi oleh alat tes. Untuk kit skrining mandiri OraQuick® cairan oral, masa jendela dapat berlangsung hingga 12 minggu (3 bulan). Artinya, bila hasil tes saat ini Nonreaktif namun ada risiko pajanan dalam 12 minggu terakhir, disarankan melakukan tes ulang setelah genap 12 minggu."
+    },
+    {
+      "id": "FAQ-05",
+      "keywords": ["cara pakai", "langkah tes", "berapa menit", "20 menit", "40 menit", "makan minum", "sikat gigi"],
+      "topic": "Prosedur & Waktu Baca 20–40 Menit",
+      "answer": "Langkah tepat penggunaan OraQuick® (WHO PQDx 0159-055-00): (1) Tunggu minimal 15–30 menit setelah makan, minum, atau sikat gigi/obat kumur. (2) Buka kemasan dan letakkan tabung penyangga di penyangga agar tidak tumpah. (3) Usap bantalan pipih ke gusi atas 1x dan gusi bawah 1x (jangan sentuh bantalan dengan jari). (4) Masukkan ujung bantalan ke dasar tabung dan nyalakan timer. (5) Baca hasil antara menit ke-20 hingga ke-40. Jangan membaca hasil sebelum 20 menit atau setelah 40 menit."
+    },
+    {
+      "id": "FAQ-06",
+      "keywords": ["1 garis", "nonreaktif", "negatif", "garis c saja"],
+      "topic": "Arti Hasil 1 Garis (Nonreaktif)",
+      "answer": "Jika muncul 1 garis merah-keunguan pada huruf C (Control) dan TIDAK ada garis pada huruf T (Test) dalam waktu 20–40 menit, hasilnya adalah NONREAKTIF. Artinya antibodi HIV tidak terdeteksi saat ini. Bila kamu tidak memiliki risiko pajanan dalam 12 minggu (3 bulan) terakhir, kamu tidak perlu khawatir. Tetap jaga perilaku pencegahan dan kamu bisa berkonsultasi dengan konselor PKPR kapan saja."
+    },
+    {
+      "id": "FAQ-07",
+      "keywords": ["invalid", "tidak ada garis", "garis c tidak muncul", "gagal", "rusak"],
+      "topic": "Arti Hasil Invalid (Garis C Tidak Muncul)",
+      "answer": "Jika garis pada huruf C (Control) TIDAK muncul (meskipun ada garis di T atau kosong sama sekali), maka hasil tes dinyatakan INVALID (tidak sah). Hal ini biasanya terjadi karena cairan penyangga tumpah, gusi kurang terusap merata, atau suhu penyimpanan di luar 2–30°C. Hasil invalid bukan berarti positif atau negatif; kamu dapat mengajukan kit pengganti dengan kode anonim atau dibantu tenaga PKPR."
+    },
+    {
+      "id": "FAQ-08",
+      "keywords": ["privasi", "rahasia", "bocor", "orang tua tahu", "guru tahu", "sekolah tahu", "data saya", "hapus chat"],
+      "topic": "Jaminan Privasi & Keamanan Data (UU PDP No. 27/2022)",
+      "answer": "Privasi kamu dilindungi sepenuhnya sesuai UU Perlindungan Data Pribadi No. 27 Tahun 2022. Aplikasi ini hanya menggunakan Token Pseudonim (tanpa nama asli, NISN, nomor HP, atau alamat). Semua percakapan dipindai oleh penghapus identitas otomatis dan dienkripsi AES-256. Pihak sekolah, guru, maupun teman tidak memiliki akses ke akunmu, dan kamu bisa menekan tombol 'Hapus Cepat Riwayat Layar' kapan saja."
+    },
+    {
+      "id": "FAQ-09",
+      "keywords": ["arv", "obat hiv", "bisa sembuh", "pengobatan", "prep", "pep", "kondom", "pencegahan"],
+      "topic": "Pencegahan HIV & Terapi ARV",
+      "answer": "Pencegahan HIV bagi remaja meliputi penghindaran perilaku berisiko (Abstinence), kesetiaan pasangan (Be faithful), penggunaan pengaman/kondom pada situasi berisiko (Condom), dan tidak pernah berbagi jarum/alat tajam (No Drugs). Selain itu, di layanan kesehatan tersedia informasi profilaksis (PrEP/PEP) dan terapi ARV gratis yang menekan jumlah virus hingga tidak terdeteksi. Untuk resep atau pemeriksaan medis, silakan berkonsultasi langsung dengan dokter/konselor di layanan PKPR Mitra."
+    },
+    {
+      "id": "FAQ-10",
+      "keywords": ["takut", "malu", "stigma", "dihakimi", "konselor", "pkpr", "biaya", "gratis"],
+      "topic": "Layanan Konseling Ramah Remaja (PKPR)",
+      "answer": "Wajar sekali jika kamu merasa gugup atau khawatir soal pandangan orang lain. Layanan Konseling Kesehatan Remaja (PKPR) Mitra dirancang khusus agar ramah remaja, rahasia, tidak menghakimi, dan tanpa biaya untuk tes konfirmasi maupun konseling. Kamu bahkan bisa meminta konselor menghubungi kamu secara privat melalui fitur Active Linkage di aplikasi ini."
+    }
+  ]
+}

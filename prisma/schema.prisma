@@ -1,0 +1,152 @@
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum StudyGroup {
+  CONTROL
+  INTERVENTION
+}
+
+enum ConsentStatus {
+  PENDING
+  APPROVED_ADULT
+  APPROVED_ASSENT_PARENT
+  APPROVED_ASSENT_WAIVER
+  WITHDRAWN
+}
+
+model Participant {
+  anonUserId        String                  @id @map("anon_user_id")
+  tokenHash         String                  @map("token_hash")
+  group             StudyGroup
+  classCluster      String                  @map("class_cluster")
+  consentStatus     ConsentStatus           @default(PENDING) @map("consent_status")
+  eligible          Boolean                 @default(true)
+  waitlistCrossover Boolean                 @default(false) @map("waitlist_crossover")
+  createdAt         DateTime                @default(now()) @map("created_at")
+  withdrawnAt       DateTime?               @map("withdrawn_at")
+
+  questionnaires    QuestionnaireResponse[]
+  checkins          Checkin[]
+  decisionEvents    DecisionEvent[]
+  chatMessages      ChatMessage[]
+  linkageRequests   LinkageRequest[]
+  kitStatus         KitStatus?
+
+  @@map("participants")
+}
+
+model QuestionnaireResponse {
+  id           String      @id @default(uuid())
+  anonUserId   String      @map("anon_user_id")
+  wave         String
+  itemCode     String      @map("item_code")
+  value        Int
+  covariates   Json?
+  isDraft      Boolean     @default(false) @map("is_draft")
+  submittedAt  DateTime    @default(now()) @map("submitted_at")
+
+  participant  Participant @relation(fields: [anonUserId], references: [anonUserId], onDelete: Cascade)
+
+  @@unique([anonUserId, wave, itemCode])
+  @@map("questionnaire_responses")
+}
+
+model Checkin {
+  id          String      @id @default(uuid())
+  anonUserId  String      @map("anon_user_id")
+  dp          String
+  pr          Float
+  pc          Float
+  st          Float
+  se          Float
+  deltaSe     Float?      @map("delta_se")
+  extras      Json?
+  createdAt   DateTime    @default(now()) @map("created_at")
+
+  participant Participant @relation(fields: [anonUserId], references: [anonUserId], onDelete: Cascade)
+
+  @@map("checkins")
+}
+
+model DecisionEvent {
+  id                     String      @id @default(uuid())
+  anonUserId             String      @map("anon_user_id")
+  dp                     String
+  ruleTriggeredId        String      @map("rule_triggered_id")
+  category               String
+  promptHash             String      @map("prompt_hash")
+  deliveryStatus         String      @map("delivery_status")
+  escalationFlag         Boolean     @default(false) @map("escalation_flag")
+  interactionDurationSec Int         @default(0) @map("interaction_duration_sec")
+  createdAt              DateTime    @default(now()) @map("created_at")
+
+  participant            Participant @relation(fields: [anonUserId], references: [anonUserId], onDelete: Cascade)
+
+  @@map("decision_events")
+}
+
+model ChatMessage {
+  id                String      @id @default(uuid())
+  anonUserId        String      @map("anon_user_id")
+  role              String
+  encryptedContent  String      @map("encrypted_content")
+  iv                String
+  promptHash        String?     @map("prompt_hash")
+  scrubbedPiiCount  Int         @default(0) @map("scrubbed_pii_count")
+  createdAt         DateTime    @default(now()) @map("created_at")
+
+  participant       Participant @relation(fields: [anonUserId], references: [anonUserId], onDelete: Cascade)
+
+  @@map("chat_messages")
+}
+
+model LinkageRequest {
+  id                   String      @id @default(uuid())
+  anonUserId           String      @map("anon_user_id")
+  pathway              String
+  status               String      @default("OPEN")
+  priority             String
+  linkageButtonClicked Boolean     @default(true) @map("linkage_button_clicked")
+  requestedAt          DateTime    @default(now()) @map("requested_at")
+  slaDueAt             DateTime    @map("sla_due_at")
+  respondedAt          DateTime?   @map("responded_at")
+
+  participant          Participant @relation(fields: [anonUserId], references: [anonUserId], onDelete: Cascade)
+
+  @@map("linkage_requests")
+}
+
+model KitStatus {
+  id                   String      @id @default(uuid())
+  anonUserId           String      @unique @map("anon_user_id")
+  kitCode              String      @map("kit_code")
+  receivedConfirmedAt  DateTime?   @map("received_confirmed_at")
+  simulationCompleted  Boolean     @default(false) @map("simulation_completed")
+  replacementRequested Boolean     @default(false) @map("replacement_requested")
+
+  participant          Participant @relation(fields: [anonUserId], references: [anonUserId], onDelete: Cascade)
+
+  @@map("kit_status")
+}
+
+model AuditLog {
+  id              String   @id @default(uuid())
+  timestamp       DateTime @default(now())
+  anonUserId      String   @map("anon_user_id")
+  eventType       String   @map("event_type")
+  vectorJson      Json?    @map("vector_json")
+  ruleTriggeredId String?  @map("rule_triggered_id")
+  promptHash      String?  @map("prompt_hash")
+  deliveryStatus  String?  @map("delivery_status")
+  escalationFlag  Boolean  @default(false) @map("escalation_flag")
+  bypassLatencyMs Int?     @map("bypass_latency_ms")
+
+  @@map("audit_log")
+}

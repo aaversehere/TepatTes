@@ -1,0 +1,135 @@
+{
+  "version": "1.0.0-VERIFIED",
+  "categories": {
+    "1A": {
+      "code": "1A",
+      "decisionPoint": "DP1",
+      "name": "Privacy & Stigma Reassurance",
+      "title": "Privasi Kamu Terlindungi & Ruang Ini Bebas Penghakiman",
+      "summary": "Kami memahami kekhawatiranmu tentang privasi atau pandangan orang sekitar. Di aplikasi ini, identitasmu sepenuhnya terlindungi.",
+      "message": "Halo! Wajar sekali kalau kamu merasa khawatir soal privasi atau takut dihakimi saat mencari info kesehatan. Perlu kamu ketahui, aplikasi ini menggunakan **Token Pseudonim** tanpa mencatat nama asli, NISN, atau nomor teleponmu. Semua pesan dienkripsi dan kamu punya tombol **Hapus Cepat Riwayat Layar** kapan saja. Mencari tahu tentang skrining mandiri HIV (HIVST) bukan berarti kamu melakukan hal buruk, ini adalah langkah cerdas untuk mengenal kesehatanmu. Ingat, HIVST adalah tes skrining awal dengan masa jendela (window period) 12 minggu, dan setiap hasil reaktif nantinya perlu dikonfirmasi di fasilitas kesehatan mitra secara rahasia.",
+      "actionTips": [
+        "Gunakan tombol 'Mode Samaran' atau 'Hapus Cepat Riwayat Layar' jika ada orang di dekatmu.",
+        "Tidak ada data yang dibagikan ke pihak sekolah maupun orang lain.",
+        "Kamu memegang kendali penuh atas akun dan datamu."
+      ]
+    },
+    "1B": {
+      "code": "1B",
+      "decisionPoint": "DP1",
+      "name": "Foundational Mastery & Education",
+      "title": "Mengenal Cara Kerja Skrining Mandiri HIV dengan Mudah",
+      "summary": "Mari pelajari langkah dasar kit skrining oral OraQuick® secara santai agar kamu makin percaya diri.",
+      "message": "Senang kamu sudah merasa cukup aman dengan privasi aplikasi ini! Kalau kamu masih merasa belum yakin cara menggunakan alat tesnya, tenang saja, kita akan belajar pelan-pelan. Kit **OraQuick® HIV Self-Test** menggunakan usapan lembut pada gusi (cairan mukosa gusi, tanpa jarum suntik atau darah). Prosesnya hanya butuh 4 langkah sederhana dan waktu baca **20–40 menit**. Perlu diingat bahwa HIVST adalah **tes skrining awal** (bukan diagnosis definitif), memiliki masa jendela (*window period*) **12 minggu**, dan bila hasilnya reaktif wajib dikonfirmasi di layanan kesehatan.",
+      "actionTips": [
+        "Tonton modul singkat di Bar Video Edukasi untuk melihat bentuk alatnya.",
+        "Coba fitur Simulasi Interaktif 4 Langkah tanpa perlu memegang alat asli dulu.",
+        "Tanyakan hal apa pun yang masih membingungkan di Chat Pendamping."
+      ]
+    },
+    "1C": {
+      "code": "1C",
+      "decisionPoint": "DP1",
+      "name": "Action Preparation",
+      "title": "Persiapan Rencana Mandiri yang Nyaman & Tepat",
+      "summary": "Kepercayaan privasi dan keyakinan dirimu sudah sangat baik! Mari siapkan rencana waktu dan tempat yang nyaman.",
+      "message": "Luar biasa! Kamu sudah memiliki rasa aman dan keyakinan diri yang baik sejak awal. Pada tahap ini, kamu bisa mulai merencanakan kapan dan di ruangan privat mana kamu akan mempelajari simulasi kit **OraQuick® HIV Self-Test**. Pastikan saat melakukan skrining nanti kamu tidak makan, minum, atau sikat gigi minimal 15–30 menit sebelumnya, serta menyimpan kit pada suhu **2–30°C**. Ingat selalu bahwa HIVST adalah **tes skrining**, memiliki *window period* **12 minggu**, dan hasil reaktif memerlukan konfirmasi di fasilitas kesehatan.",
+      "actionTips": [
+        "Pilih waktu luang minimal 45 menit di kamar atau tempat privat.",
+        "Pelajari panduan pembacaan garis C (Control) dan T (Test) di menu Simulasi.",
+        "Kenali jalur bantuan Konselor PKPR yang selalu siap mendampingi."
+      ]
+    },
+    "2A": {
+      "code": "2A",
+      "decisionPoint": "DP2",
+      "name": "Targeted Mastery & Vicarious Modeling",
+      "title": "Latihan Langkah demi Langkah: Kamu Pasti Bisa!",
+      "summary": "Banyak remaja awalnya ragu saat mengusap gusi atau membaca garis. Mari kita latih bagian yang paling sering bikin bingung.",
+      "message": "Tidak apa-apa kalau setelah melihat panduan kamu masih merasa ragu atau belum mantap melakukannya sendiri. Banyak teman seusiamu awalnya juga takut salah mengusap gusi atau bingung menghitung waktu. Kunci utamanya hanya tiga: **(1)** Usap bantalan pipih 1 kali di gusi atas dan 1 kali di gusi bawah tanpa menyentuh bantalannya, **(2)** Masukkan ke tabung penyangga, dan **(3)** Baca hasil tepat di menit ke-**20 hingga 40**. Ingat, HIVST ini adalah **skrining awal** dengan *window period* **12 minggu**, dan hasil reaktif selalu perlu tes konfirmasi di fasyankes.",
+      "actionTips": [
+        "Gunakan Timer 20–40 Menit otomatis yang ada di menu Panduan & Simulasi.",
+        "Gunakan alat bantu 'Pembaca Garis C dan T' di aplikasi agar tidak ragu menafsirkan garis.",
+        "Jika garis C tidak muncul (Invalid), kamu bisa meminta kit pengganti secara anonim."
+      ]
+    },
+    "2B": {
+      "code": "2B",
+      "decisionPoint": "DP2",
+      "name": "Device Privacy Protection Guide",
+      "title": "Panduan Ekstra Melindungi Privasi di Perangkatmu",
+      "summary": "Tips praktis agar aktivitas belajarmu di ponsel dan penyimpanan kit tetap 100% privat.",
+      "message": "Kami memperhatikan kamu masih memiliki kekhawatiran terkait privasi perangkat atau lingkungan sekitar. Agar kamu tetap tenang, aplikasi ini dilengkapi **Auto-Logout otomatis dalam 3 menit** jika layar tidak disentuh, serta ikon aplikasi yang tersamar sebagai modul belajar biasa. Saat kamu membuka panduan kit **OraQuick®**, kamu bisa langsung menekan tombol **Hapus Cepat Riwayat Layar** selesai membaca. Sebagai pengingat standar, HIVST adalah **tes skrining** dengan masa jendela (*window period*) **12 minggu**, dan hasil reaktif perlu dikonfirmasi di fasilitas kesehatan.",
+      "actionTips": [
+        "Aktifkan kunci layar (PIN/sidik jari) di ponselmu jika ponsel sering dipinjam.",
+        "Gunakan tombol 'Mode Samaran' di pojok kanan atas untuk mengubah layar menjadi catatan pelajaran.",
+        "Simpan kit pada suhu ruang (2–30°C) di dalam tas atau laci pribadimu."
+      ]
+    },
+    "2A+2B": {
+      "code": "2A+2B",
+      "decisionPoint": "DP2",
+      "name": "Targeted Mastery & Vicarious Modeling + Device Privacy Protection Tips",
+      "title": "Panduan Praktis Penggunaan Kit Sekaligus Perlindungan Privasi Perangkat",
+      "summary": "Kombinasi latihan langkah teknis OraQuick® yang mudah diikuti beserta tips menjaga kerahasiaan di ponselmu.",
+      "message": "Kami mendampingi kamu di dua hal sekaligus: meningkatkan keyakinan memakai kit dan memastikan privasimu tetap aman. Pertama, untuk penggunaan **OraQuick® HIV Self-Test**, kamu cukup mengusap gusi atas 1x dan gusi bawah 1x, memasukkannya ke tabung cairan, lalu membaca garis C dan T pada menit ke-**20 hingga 40** menggunakan simulator di aplikasi. Kedua, untuk privasi perangkat: aplikasi ini otomatis keluar setelah **3 menit** tidak aktif dan memiliki tombol **Hapus Cepat Riwayat Layar** serta **Mode Samaran** satu klik. Ingat selalu bahwa HIVST adalah **tes skrining** dengan *window period* **12 minggu**, dan hasil reaktif wajib dikonfirmasi di fasyankes.",
+      "actionTips": [
+        "Latih pembacaan garis C/T di menu Simulasi agar makin percaya diri.",
+        "Tekan 'Hapus Cepat Riwayat Layar' setiap selesai menggunakan aplikasi bila HP dipakai bersama.",
+        "Simpan kit di tempat privat bersuhu 2–30°C sebelum digunakan."
+      ]
+    },
+    "2C": {
+      "code": "2C",
+      "decisionPoint": "DP2",
+      "name": "Window Period & Kit Readiness",
+      "title": "Pemahaman Masa Jendela 12 Minggu & Kesiapan Kit",
+      "summary": "Keyakinan diri dan rasa amanmu sudah prima! Mari pastikan pemahaman masa jendela (window period) sebelum menerima kit.",
+      "message": "Hebat! Kamu sudah sangat paham cara kerja kit dan merasa aman dengan privasi aplikasi. Sebelum konfirmasi penerimaan kit di tahap berikutnya, pastikan kamu mengingat konsep **Masa Jendela (Window Period) 12 Minggu**: tubuh membutuhkan waktu hingga 12 minggu sejak pajanan risiko untuk membentuk antibodi yang dapat dideteksi oleh **OraQuick®**. Selain itu, pastikan suhu penyimpanan kit terjaga di **2–30°C** dan waktu baca dipatuhi pada **20–40 menit**. HIVST adalah **tes skrining**, sehingga setiap hasil reaktif harus dikonfirmasi melalui tes 3 reagen di fasilitas kesehatan.",
+      "actionTips": [
+        "Periksa keutuhan segel kemasan dan masa kedaluwarsa saat kit diterima.",
+        "Catat tanggal rencana pelaksanaan tes di waktu yang tenang.",
+        "Ketahui bahwa hasil Nonreaktif tanpa risiko 12 minggu terakhir berarti negatif."
+      ]
+    },
+    "3A": {
+      "code": "3A",
+      "decisionPoint": "DP3",
+      "name": "Affective Regulation & Assisted Option",
+      "title": "Tarik Napas Pelan: Kamu Tidak Harus Melewati Ini Sendirian",
+      "summary": "Merasa deg-degan atau ragu sebelum membaca hasil itu sangat manusiawi. Ada opsi pendampingan konselor untukmu.",
+      "message": "Tarik napas dalam-dalam selama 4 detik, tahan sebentar, lalu embuskan perlahan. Sangat wajar kalau jantungmu berdebar atau kamu merasa ragu saat memegang kit **OraQuick®**. Kamu **tidak wajib** melakukannya sendirian jika merasa cemas. Kamu bisa menggunakan panduan visual langkah demi langkah di aplikasi ini, atau memilih opsi **Assisted Testing / Konseling Rahasia** bersama Konselor PKPR Mitra yang ramah remaja. Ingat bahwa apa pun hasilnya nanti, HIVST adalah **tes skrining awal** (dengan *window period* 12 minggu), bukan vonis akhir, dan hasil reaktif akan didampingi penuh untuk tes konfirmasi gratis di fasilitas kesehatan.",
+      "actionTips": [
+        "Lakukan latihan napas tenang 1 menit sebelum membuka kemasan kit.",
+        "Gunakan Panduan Baca Garis di aplikasi: 1 garis di C = Nonreaktif; 2 garis di C & T = Reaktif (perlu konfirmasi).",
+        "Klik 'Hubungi Konselor Rahasia PKPR' jika kamu ingin ditemani atau bertanya langsung."
+      ]
+    },
+    "3B": {
+      "code": "3B",
+      "decisionPoint": "DP3",
+      "name": "Hard Rule Escalation (Human-in-the-Loop Bypass)",
+      "title": "Dukungan Prioritas & Pendampingan Langsung Konselor Rahasia",
+      "summary": "Keselamatan dan ketenanganmu adalah prioritas utama kami. Kami langsung menghubungkanmu dengan pendamping manusia terlatih.",
+      "message": "Terima kasih sudah jujur menyampaikan kondisimu saat ini. **Tarik napas pelan-pelan, kamu aman di sini dan kamu tidak sendirian.**\n\nPenting untuk diingat:\n1. **Hasil Skrining Mandiri (2 garis / Reaktif) BUKAN diagnosis medis akhir.** Alat ini adalah skrining awal yang wajib dikonfirmasi dengan pemeriksaan resmi (3 reagen) di layanan kesehatan.\n2. Bila garis C tidak muncul (**Invalid**), artinya alat tidak bekerja semestinya dan kamu berhak mendapat kit pengganti.\n3. Jika saat ini kamu merasa sangat cemas, panik, atau membutuhkan bantuan segera, sistem otomatis mengaktifkan jalur **Prioritas Konselor Rahasia PKPR** di bawah ini (respons cepat, rahasia, dan tanpa biaya).",
+      "actionTips": [
+        "Tekan tombol 'Hubungi Konselor Rahasia PKPR Sekarang' atau 'Minta Callback Privat' di bawah.",
+        "Konselor PKPR Mitra terikat sumpah kerahasiaan dan tidak akan memberi tahu pihak sekolah.",
+        "Layanan konfirmasi di fasilitas kesehatan mitra bersifat rahasia dan gratis."
+      ]
+    },
+    "3C": {
+      "code": "3C",
+      "decisionPoint": "DP3",
+      "name": "TACT Action Plan & Active Linkage Readiness",
+      "title": "Rencana Tindakan Mandiri (TACT) & Jalur Lanjutan Siap Digunakan",
+      "summary": "Kamu sudah siap sepenuhnya secara teknis maupun emosional! Berikut panduan TACT dan jalur rujukan pasca-tes.",
+      "message": "Kamu sudah menunjukkan kesiapan penuh! Berikut ringkasan rencana **TACT (Target, Action, Context, Time)** kamu: melaksanakan skrining mandiri **OraQuick®** di ruang privat yang nyaman, tidak makan/minum 15–30 menit sebelumnya, mengusap gusi atas & bawah masing-masing 1 kali, dan membaca hasil tepat pada menit ke-**20 hingga 40**. Ingat selalu bahwa HIVST adalah **tes skrining** dengan *window period* **12 minggu**. Setelah selesai:\n• **Nonreaktif (1 garis di C):** Pertahankan pencegahan & jadwalkan pengingat jika ada risiko dalam 12 minggu terakhir.\n• **Reaktif (2 garis di C & T):** Gunakan tombol Active Linkage untuk tes konfirmasi gratis & rahasia di fasyankes.\n• **Invalid (garis C kosong):** Ajukan kit pengganti anonim di menu Bantuan.",
+      "actionTips": [
+        "Mulai Timer 20–40 Menit di menu Simulasi tepat saat alat dimasukkan ke tabung.",
+        "Simpan hasil refleksimu secara privat atau hubungkan ke Konselor PKPR sesuai jalur hasil.",
+        "Jangan lupa mengisi Posttest pada Hari ke-10 untuk menyelesaikan rangkaian program."
+      ]
+    }
+  }
+}

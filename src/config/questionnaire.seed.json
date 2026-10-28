@@ -1,0 +1,294 @@
+{
+  "version": "1.0.0-RESMI-AZZAM-2026",
+  "title": "Kuesioner Penelitian Pengaruh Intervensi Adaptif Berbasis AI terhadap Intensi Tes HIV Mandiri pada Remaja",
+  "peneliti": "Abdullah Azzam (NIM. 223001) | Pembimbing: Linlin Lindayani, PhD | STIKep PPNI Jawa Barat",
+  "petunjukUmum": "Seluruh tanggapan bersifat rahasia, menggunakan kode token anonim, dan tidak memengaruhi nilai akademik.",
+  "covariates": [
+    {
+      "id": "measurementPhase",
+      "label": "Waktu Pengukuran Kuesioner",
+      "type": "select",
+      "options": [
+        "Pretest (T0 - Pengukuran Awal)",
+        "Posttest (T1 - Hari ke-14)"
+      ]
+    },
+    {
+      "id": "age",
+      "label": "Usia saat ini (Rentang inklusi: 15–19 tahun)",
+      "type": "select",
+      "options": ["15", "16", "17", "18", "19"]
+    },
+    {
+      "id": "gender",
+      "label": "Jenis Kelamin",
+      "type": "select",
+      "options": ["Laki-laki", "Perempuan"]
+    },
+    {
+      "id": "grade",
+      "label": "Tingkat Kelas",
+      "type": "select",
+      "options": ["Kelas X", "Kelas XI", "Kelas XII"]
+    },
+    {
+      "id": "priorHivInfo",
+      "label": "Riwayat Paparan Informasi HIV / Kesehatan Seksual Sebelumnya",
+      "type": "select",
+      "options": [
+        "Pernah mendapatkan penyuluhan/informasi resmi sebelumnya",
+        "Belum pernah mendapatkan penyuluhan/informasi resmi sebelumnya"
+      ]
+    },
+    {
+      "id": "sharedDevice",
+      "label": "Status Kepemilikan Perangkat Gawai (Shared Device Status)",
+      "type": "select",
+      "options": [
+        "Perangkat milik pribadi sepenuhnya (tidak dipakai bersama)",
+        "Perangkat digunakan bersama orang tua/saudara/teman (shared device)"
+      ]
+    }
+  ],
+  "constructs": [
+    {
+      "code": "PT",
+      "name": "Kepercayaan Privasi (Privacy Trust)",
+      "range": [8, 40],
+      "scaleType": "LIKERT_STS_SS",
+      "scaleLabels": {
+        "1": "Sangat Tidak Setuju (STS)",
+        "2": "Tidak Setuju (TS)",
+        "3": "Netral / Ragu-ragu (N)",
+        "4": "Setuju (S)",
+        "5": "Sangat Setuju (SS)"
+      },
+      "shortLabels": {
+        "1": "STS",
+        "2": "TS",
+        "3": "N",
+        "4": "S",
+        "5": "SS"
+      },
+      "items": [
+        {
+          "code": "PT1",
+          "dimension": "Keamanan Teknis (Data Security Trust)",
+          "text": "Saya percaya pengelola sistem menjelaskan dengan jujur bagaimana data pribadi saya dilindungi."
+        },
+        {
+          "code": "PT2",
+          "dimension": "Keamanan Teknis (Data Security Trust)",
+          "text": "Saya percaya informasi saya dalam sistem dikelola dengan cara yang aman sesuai penjelasan yang diberikan."
+        },
+        {
+          "code": "PT3",
+          "dimension": "Keamanan Teknis (Data Security Trust)",
+          "text": "Saya percaya akses terhadap informasi pribadi saya dibatasi pada pihak yang berwenang sesuai penjelasan."
+        },
+        {
+          "code": "PT4",
+          "dimension": "Kerahasiaan (Confidentiality & Non-Disclosure)",
+          "text": "Saya percaya informasi sensitif saya tidak akan diberikan kepada sekolah atau guru di luar ketentuan yang dijelaskan."
+        },
+        {
+          "code": "PT5",
+          "dimension": "Kerahasiaan (Confidentiality & Non-Disclosure)",
+          "text": "Saya percaya penggunaan sistem dirancang untuk mengurangi kemungkinan informasi pribadi terlihat oleh orang lain."
+        },
+        {
+          "code": "PT6",
+          "dimension": "Kerahasiaan (Confidentiality & Non-Disclosure)",
+          "text": "Saya merasa cukup percaya pada cara pengelolaan privasi sistem untuk mengajukan pertanyaan tentang HIVST."
+        },
+        {
+          "code": "PT7",
+          "dimension": "Integritas Tujuan (Purpose Integrity Trust)",
+          "text": "Saya percaya penggunaan data saya dibatasi pada tujuan yang telah dijelaskan kepada saya."
+        },
+        {
+          "code": "PT8",
+          "dimension": "Integritas Tujuan (Purpose Integrity Trust)",
+          "text": "Saya percaya pengelola sistem bertanggung jawab apabila terjadi masalah perlindungan informasi pribadi."
+        }
+      ]
+    },
+    {
+      "code": "SE",
+      "name": "Efikasi Diri Tes HIV Mandiri (HIVST Self-Efficacy)",
+      "range": [8, 40],
+      "scaleType": "LIKERT_STY_SY",
+      "scaleLabels": {
+        "1": "Sangat Tidak Yakin (STY)",
+        "2": "Tidak Yakin (TY)",
+        "3": "Cukup Yakin / Ragu-ragu (R)",
+        "4": "Yakin (Y)",
+        "5": "Sangat Yakin (SY)"
+      },
+      "shortLabels": {
+        "1": "STY",
+        "2": "TY",
+        "3": "R",
+        "4": "Y",
+        "5": "SY"
+      },
+      "items": [
+        {
+          "code": "SE1",
+          "dimension": "Kapabilitas Persiapan Kit",
+          "text": "Saya mampu mempelajari petunjuk penggunaan kit HIVST dan menyiapkan komponen alat tes secara mandiri di tempat yang privat."
+        },
+        {
+          "code": "SE2",
+          "dimension": "Kapabilitas Persiapan Kit",
+          "text": "Saya yakin mampu menyiapkan komponen kit HIVST mengikuti petunjuk produk yang digunakan."
+        },
+        {
+          "code": "SE3",
+          "dimension": "Kapabilitas Self-Sampling Cairan Oral",
+          "text": "Saya yakin mampu mengambil spesimen HIVST dengan benar sesuai petunjuk produk yang digunakan."
+        },
+        {
+          "code": "SE4",
+          "dimension": "Kapabilitas Prosedur Uji & Waktu Baca",
+          "text": "Saya yakin mampu mengikuti langkah prosedur dan waktu pembacaan hasil sesuai petunjuk kit HIVST."
+        },
+        {
+          "code": "SE5",
+          "dimension": "Kapabilitas Interpretasi Hasil",
+          "text": "Saya yakin mampu membedakan hasil reaktif, nonreaktif, dan tidak valid berdasarkan contoh pada petunjuk produk."
+        },
+        {
+          "code": "SE6",
+          "dimension": "Pemahaman Masa Jendela (Window Period)",
+          "text": "Saya yakin mampu memahami bahwa hasil HIVST harus ditafsirkan menurut masa jendela dan riwayat pajanan."
+        },
+        {
+          "code": "SE7",
+          "dimension": "Kapabilitas Regulasi Afektif/Cemas",
+          "text": "Saya mampu mengelola rasa tegang atau cemas saat menunggu dan melihat hasil skrining mandiri HIVST."
+        },
+        {
+          "code": "SE8",
+          "dimension": "Kapabilitas Tindak Lanjut (Linkage)",
+          "text": "Saya mampu menghubungi petugas konselor kesehatan untuk pemeriksaan konfirmasi atau tes ulang apabila hasil skrining menunjukkan reaktif atau invalid."
+        }
+      ]
+    },
+    {
+      "code": "INT",
+      "name": "Intensi Tes HIV Mandiri (HIVST Intention - Kerangka TACT)",
+      "range": [6, 30],
+      "scaleType": "LIKERT_STS_SS",
+      "scaleLabels": {
+        "1": "Sangat Tidak Setuju (STS)",
+        "2": "Tidak Setuju (TS)",
+        "3": "Netral (N)",
+        "4": "Setuju (S)",
+        "5": "Sangat Setuju (SS)"
+      },
+      "shortLabels": {
+        "1": "STS",
+        "2": "TS",
+        "3": "N",
+        "4": "S",
+        "5": "SS"
+      },
+      "items": [
+        {
+          "code": "INT1",
+          "dimension": "Willingness & Target",
+          "text": "Saya bersedia mempertimbangkan menggunakan kit HIVST yang tersedia secara sah apabila saya membutuhkan skrining HIV."
+        },
+        {
+          "code": "INT2",
+          "dimension": "Action & Private Context",
+          "text": "Saya berniat mengikuti petunjuk penggunaan HIVST di tempat yang menjaga privasi saya apabila memutuskan melakukan tes."
+        },
+        {
+          "code": "INT3",
+          "dimension": "Time Commitment (14 Hari)",
+          "text": "Saya berencana mempertimbangkan penggunaan HIVST dalam 14 hari setelah program ini apabila saya membutuhkan skrining HIV."
+        },
+        {
+          "code": "INT4",
+          "dimension": "Specific Plan & Context",
+          "text": "Saya telah memikirkan kapan dan di mana saya dapat menggunakan HIVST secara privat apabila saya memutuskan melakukannya."
+        },
+        {
+          "code": "INT5",
+          "dimension": "Determination / Effort",
+          "text": "Saya akan berusaha menyediakan waktu untuk HIVST apabila saya memutuskan melakukan skrining."
+        },
+        {
+          "code": "INT6",
+          "dimension": "Complete TACT Commitment",
+          "text": "Secara keseluruhan, saya berniat menggunakan HIVST sesuai petunjuk dalam 14 hari setelah program apabila diperlukan."
+        }
+      ]
+    },
+    {
+      "code": "HS",
+      "name": "Kesiapan Pencarian Bantuan Terkait HIV (Help-Seeking Readiness)",
+      "range": [8, 40],
+      "promptLead": "Apabila Anda menghadapi kekhawatiran terkait risiko HIV atau membutuhkan kejelasan mengenai tes skrining HIV mandiri (HIVST), seberapa mungkin Anda akan melakukan langkah-langkah pencarian bantuan berikut?",
+      "scaleType": "LIKERT_STM_SM",
+      "scaleLabels": {
+        "1": "Sangat Tidak Mungkin (STM)",
+        "2": "Tidak Mungkin (TM)",
+        "3": "Netral (N)",
+        "4": "Mungkin (M)",
+        "5": "Sangat Mungkin (SM)"
+      },
+      "shortLabels": {
+        "1": "STM",
+        "2": "TM",
+        "3": "N",
+        "4": "M",
+        "5": "SM"
+      },
+      "items": [
+        {
+          "code": "HS1",
+          "dimension": "Kesiapan Informasi Resmi",
+          "text": "Mencari informasi lanjutan mengenai periode jendela (window period) dan pencegahan HIV melalui panduan resmi di dalam sistem."
+        },
+        {
+          "code": "HS2",
+          "dimension": "Kesiapan Informasi Resmi",
+          "text": "Mengajukan pertanyaan tentang keraguan hasil skrining HIVST kepada layanan informasi kesehatan resmi yang terjamin kerahasiaannya."
+        },
+        {
+          "code": "HS3",
+          "dimension": "Intensi Bantuan Formal (PKPR)",
+          "text": "Menghubungi petugas konselor Pelayanan Kesehatan Peduli Remaja (PKPR) Puskesmas untuk berkonsultasi mengenai hasil HIVST saya."
+        },
+        {
+          "code": "HS4",
+          "dimension": "Intensi Bantuan Formal (Nakes)",
+          "text": "Berkonsultasi dengan dokter, perawat, atau bidan di fasilitas kesehatan mitra apabila saya mengalami kecemasan terkait risiko HIV."
+        },
+        {
+          "code": "HS5",
+          "dimension": "Intensi Bantuan Formal (Telecounseling)",
+          "text": "Memanfaatkan layanan konseling jarak jauh (telecounseling atau pendamping kesehatan terlatih) yang direkomendasikan sistem."
+        },
+        {
+          "code": "HS6",
+          "dimension": "Intensi Bantuan Informal Dewasa",
+          "text": "Meminta dukungan emosional atau saran dari orang dewasa yang paling saya percaya (seperti orang tua/wali atau guru BK/UKS) jika saya membutuhkan pendampingan ke layanan kesehatan."
+        },
+        {
+          "code": "HS7",
+          "dimension": "Intensi Bantuan Informal Sebaya",
+          "text": "Berdiskusi secara bijak dengan teman sebaya atau pendamping sebaya (peer educator) yang terlatih mengenai cara mengakses layanan ramah remaja."
+        },
+        {
+          "code": "HS8",
+          "dimension": "Kesiapan Rujukan Aktif (Active Linkage)",
+          "text": "Menggunakan fitur rujukan aktif (active linkage) pada sistem untuk menjadwalkan tes konfirmasi atau layanan pencegahan di Puskesmas apabila diperlukan."
+        }
+      ]
+    }
+  ]
+}

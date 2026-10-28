@@ -1,0 +1,23 @@
+{
+  "name": "TepatTes - Skrining Mandiri & Edukasi Adaptif",
+  "short_name": "TepatTes",
+  "description": "Aplikasi skrining mandiri dan edukasi adaptif remaja berbasis perlindungan privasi — Adaptif | Aman | Mandiri.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0F766E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

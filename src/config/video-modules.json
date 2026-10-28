@@ -1,0 +1,79 @@
+[
+  {
+    "id": "VID-01",
+    "dayUnlock": 1,
+    "duration": "02:30",
+    "category": "Dasar Kesehatan & Privasi",
+    "title": "Mengenal HIV vs AIDS & Mengapa Privasi Remaja Dilindungi",
+    "subtitle": "Memahami perbedaan HIV dan AIDS, cara penularan yang sebenarnya, serta bagaimana token anonim melindungi datamu.",
+    "keyPoints": [
+      "HIV menyerang sistem kekebalan tubuh (sel CD4), namun dengan terapi ARV seseorang tetap bisa hidup sehat dan produktif.",
+      "HIV TIDAK menular lewat air liur, keringat, pelukan, alat makan, toilet, atau gigitan nyamuk.",
+      "Di aplikasi ini, identitasmu diganti Token Pseudonim (sesuai UU PDP No. 27/2022) sehingga 100% rahasia."
+    ],
+    "chapters": [
+      { "time": "00:00", "label": "Fakta vs Mitos Penularan HIV", "visualText": "Virus HIV hanya menular melalui darah, cairan seksual, dan ASI, bukan lewat pergaulan sehari-hari di sekolah atau rumah." },
+      { "time": "00:55", "label": "Mengapa Skrining Dini Penting?", "visualText": "Mengetahui status kesehatan lebih awal membantu remaja mengambil langkah pencegahan dan mengakses dukungan tepat waktu." },
+      { "time": "01:45", "label": "Cara Kerja Perlindungan Privasi SENYAP", "visualText": "Tanpa nama, tanpa nomor HP, enkripsi AES-256, dan tombol Hapus Cepat Riwayat Layar satu klik." }
+    ],
+    "transcript": "Halo teman-teman! Di video pertama ini kita membahas hal paling mendasar: apa itu HIV, mengapa banyak mitos yang keliru, dan bagaimana aplikasi ini melindungi privasimu. HIV tidak menular lewat obrolan, makan bersama, atau berjabat tangan. Selain itu, seluruh aktivitasmu di aplikasi ini menggunakan kode token anonim sehingga tidak ada seorang pun di sekolah yang mengetahui identitasmu."
+  },
+  {
+    "id": "VID-02",
+    "dayUnlock": 3,
+    "duration": "03:15",
+    "category": "Panduan Visual Kit",
+    "title": "Tutorial Visual 4 Langkah OraQuick® HIV Self-Test (Cairan Gusi)",
+    "subtitle": "Simulasi visual penggunaan kit skrining mandiri berbasis usapan gusi tanpa jarum suntik (WHO PQDx 0159-055-00).",
+    "keyPoints": [
+      "Jangan makan, minum, sikat gigi, atau memakai obat kumur minimal 15–30 menit sebelum tes.",
+      "Usap bantalan pipih 1 kali di sepanjang gusi atas dan 1 kali di sepanjang gusi bawah (jangan sentuh bantalan dengan jari).",
+      "Masukkan ke tabung cairan penyangga dan baca hasil tepat pada menit ke-20 hingga menit ke-40."
+    ],
+    "chapters": [
+      { "time": "00:00", "label": "1. Persiapan & Suhu Simpan (2–30°C)", "visualText": "Pastikan segel utuh, suhu ruang 2–30°C, dan puasa makan/minum 15–30 menit sebelumnya." },
+      { "time": "00:50", "label": "2. Membuka Tabung Penyangga (Developer Vial)", "visualText": "Buka tutup tabung perlahan agar cairan tidak tumpah, lalu geser masuk ke penyangga plastik." },
+      { "time": "01:40", "label": "3. Teknik Usap Gusi Atas & Gusi Bawah", "visualText": "Tempelkan bantalan pipih di garis gusi luar: 1 kali sapuan gusi atas, 1 kali sapuan gusi bawah." },
+      { "time": "02:30", "label": "4. Menunggu Waktu Baca 20–40 Menit", "visualText": "Masukkan ujung bantalan hingga menyentuh dasar tabung. Cairan merah muda akan naik perlahan. Tunggu 20–40 menit." }
+    ],
+    "transcript": "Kit OraQuick® HIV Self-Test dirancang agar mudah digunakan sendiri tanpa jarum suntik. Alat ini mendeteksi antibodi HIV pada cairan mukosa gusi. Pastikan kamu tidak makan atau minum 15–30 menit sebelumnya, usap gusi atas satu kali dan gusi bawah satu kali, lalu masukkan alat ke tabung penyangga dan nyalakan timer 20 hingga 40 menit."
+  },
+  {
+    "id": "VID-03",
+    "dayUnlock": 5,
+    "duration": "02:45",
+    "category": "Interpretasi & Window Period",
+    "title": "Cara Membaca Garis C & T serta Memahami Masa Jendela 12 Minggu",
+    "subtitle": "Membedakan hasil Nonreaktif, Reaktif, dan Invalid secara akurat tanpa panik.",
+    "keyPoints": [
+      "1 Garis di C (tanpa garis T) = Nonreaktif. Bila tidak ada risiko dalam 12 minggu terakhir, hasilnya negatif.",
+      "2 Garis di C dan T (walaupun garis T samar) = Reaktif. Ini adalah skrining awal dan wajib dikonfirmasi di fasyankes.",
+      "Garis C tidak muncul = Invalid (tidak sah). Ajukan kit pengganti dengan kode anonim."
+    ],
+    "chapters": [
+      { "time": "00:00", "label": "Hasil Nonreaktif (1 Garis pada C)", "visualText": "Garis muncul jelas di huruf C dan bersih di huruf T. Pertahankan perilaku pencegahan." },
+      { "time": "00:55", "label": "Hasil Reaktif (2 Garis pada C dan T)", "visualText": "Muncul garis di C dan garis di T (termasuk samar). Bukan diagnosis akhir, lanjutkan ke tes konfirmasi 3 reagen." },
+      { "time": "01:50", "label": "Hasil Invalid & Masa Jendela 12 Minggu", "visualText": "Jika C kosong maka tes tidak sah. Ingat juga bahwa antibodi membutuhkan waktu hingga 12 minggu untuk terdeteksi." }
+    ],
+    "transcript": "Saat waktu menunjukkan menit ke-20 hingga ke-40, perhatikan jendela hasil. Huruf C adalah garis kontrol yang menandakan alat bekerja baik. Jika hanya ada 1 garis di C, hasilnya Nonreaktif. Jika ada 2 garis di C dan T meskipun samar, hasilnya Reaktif dan perlu tes konfirmasi resmi di layanan kesehatan. Jangan lupa masa jendela antibodi adalah 12 minggu."
+  },
+  {
+    "id": "VID-04",
+    "dayUnlock": 7,
+    "duration": "02:20",
+    "category": "Kesiapan & Layanan PKPR",
+    "title": "Mengelola Rasa Deg-degan & Mengenal Layanan Rahasia PKPR",
+    "subtitle": "Teknik regulasi emosi pra-tes dan alur rujukan ramah remaja (Active Linkage) tanpa biaya.",
+    "keyPoints": [
+      "Merasa gugup sebelum melakukan tes adalah respons alami tubuh; lakukan teknik pernapasan 4-4-4.",
+      "Layanan Konseling Kesehatan Remaja (PKPR) Mitra bersifat rahasia, ramah remaja, dan bebas stigma.",
+      "Tersedia 3 jalur Active Linkage: Konfirmasi Reaktif, Konseling Pencegahan Nonreaktif, dan Penggantian Kit Invalid."
+    ],
+    "chapters": [
+      { "time": "00:00", "label": "Teknik Napas Tenang Sebelum Tes", "visualText": "Tarik napas 4 detik, tahan 4 detik, embuskan 4 detik. Kamu memegang kendali penuh." },
+      { "time": "00:50", "label": "Apa Itu Layanan PKPR Ramah Remaja?", "visualText": "Konselor terlatih yang menjaga kerahasiaan penuh dan siap mendampingi via chat/callback privat." },
+      { "time": "01:40", "label": "3 Jalur Active Linkage Satu Klik", "visualText": "Dukungan cepat ≤1x24 jam (<2 jam pada jam kerja untuk kondisi cemas berat/reaktif) dan gratis di fasyankes mitra." }
+    ],
+    "transcript": "Wajar sekali jika kamu merasa berdebar sebelum melihat hasil. Kamu tidak sendirian! Di aplikasi ini tersedia tombol satu klik untuk terhubung ke Konselor Rahasia PKPR Mitra. Baik hasilnya nonreaktif, reaktif yang butuh konfirmasi 3 reagen, maupun invalid yang butuh kit baru, konselor siap mendampingimu secara gratis dan rahasia."
+  }
+]
